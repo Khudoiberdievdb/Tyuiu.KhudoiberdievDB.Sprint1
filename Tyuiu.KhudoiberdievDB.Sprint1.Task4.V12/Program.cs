@@ -31,7 +31,7 @@ namespace Tyuiu.KhudoiberdievDB.Sprint1.Task4.V12
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
 
-            Console.WriteLine("SinX / (x + y^1/2) = " + ds.Calculate(x, y));
+            Console.WriteLine("SinX*PI / (x + y^1/2) = " + ds.Calculate(x, y));
             Console.ReadKey();
         }
     }
