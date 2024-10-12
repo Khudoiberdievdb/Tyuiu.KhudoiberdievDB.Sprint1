@@ -24,9 +24,9 @@ namespace Tyuiu.KhudoiberdievDB.Sprint1.Task4.V12
             Console.WriteLine("********************************************************************************");
             double x, y;
             Console.WriteLine("Введите значение числа X ");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите значение числа Y ");
-            y = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
