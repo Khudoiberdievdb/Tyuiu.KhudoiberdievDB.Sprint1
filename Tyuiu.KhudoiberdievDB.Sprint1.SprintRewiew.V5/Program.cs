@@ -1,5 +1,4 @@
-﻿using Tyuiu.KhudoiberdievDB.Sprint1.SprintRewiew.V5.Lib;
-namespace Tyuiu.KhudoiberdievDB.Sprint1.SprintRewiew.V5
+﻿namespace Tyuiu.KhudoiberdievDB.Sprint1.SprintRewiew.V5
 {
     internal class Program
     {
@@ -20,14 +19,13 @@ namespace Tyuiu.KhudoiberdievDB.Sprint1.SprintRewiew.V5
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                             *");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("Введите значение Х :");
-            int x = Convert.ToInt32(Console.ReadLine());
-            double res;
-            res = Math.Log(Math.Cos(x)) / Math.Log(1 + Math.Pow(x, 2));
+            double x = Convert.ToDouble(Console.ReadLine());
+            double res = Math.Log(Math.Abs(Math.Cos(x))) / (Math.Log(Math.Abs(1 + Math.Pow(x, 2))));
 
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                   *");
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("Ответ : " + Math.Round(res,3));
+            Console.WriteLine(Math.Round(res,3));
             Console.ReadKey();
 
         }
